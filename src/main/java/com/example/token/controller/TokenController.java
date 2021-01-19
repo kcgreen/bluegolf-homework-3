@@ -28,7 +28,7 @@ public class TokenController {
 	
 	private boolean isValid(TokenRequest tokenRequest) {
 		// Perform necessary validation of userName and tournamentName within the volunteer repository.
-		if (tokenRequest != null && !tokenRequest.getUserName().toUpperCase().equals("PALPATINE")) {
+		if (tokenRequest != null && !tokenRequest.getUserName().toUpperCase().equals("ANAKIN")) {
 			return true;
 		} else {
 			return false;
